@@ -1,5 +1,5 @@
 use borsh::BorshDeserialize;
-use borsh_derive::{BorshDeserialize, BorshSerialize};
+use borsh_derive::{BorshSerialize, BorshDeserialize};
 use solana_program::program_error::ProgramError;
 
 #[derive(Debug, BorshDeserialize, BorshSerialize)]
